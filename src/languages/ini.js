@@ -24,11 +24,11 @@ export default function(hljs) {
   const COMMENTS = hljs.COMMENT();
   COMMENTS.variants = [
     {
-      begin: /;/,
+      begin: /^;/,
       end: /$/
     },
     {
-      begin: /#/,
+      begin: /^#/,
       end: /$/
     }
   ];
